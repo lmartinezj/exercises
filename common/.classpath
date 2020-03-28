@@ -1,0 +1,69 @@
+<classpath>
+  <classpathentry output=".target" kind="src" path="src\main\scala"/>
+  <classpathentry output=".target" kind="src" path="src\main\resources"/>
+  <classpathentry output=".target" kind="src" path="src\test\scala"/>
+  <classpathentry output=".target" kind="src" path="src\test\resources"/>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\1.2.0\scala-xml_2.13-1.2.0-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\1.2.0\scala-xml_2.13-1.2.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\1.2.0\scala-xml_2.13-1.2.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.5\joda-time-2.10.5-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.5\joda-time-2.10.5-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.10.1\jackson-datatype-jdk8-2.10.1-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.10.1\jackson-datatype-jdk8-2.10.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.10.1\jackson-datatype-jdk8-2.10.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.1.0\scalatest-compatible-3.1.0-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.1.0\scalatest-compatible-3.1.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.1.0\scalatest-compatible-3.1.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-functional_2.13\2.8.1\play-functional_2.13-2.8.1-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-functional_2.13\2.8.1\play-functional_2.13-2.8.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-functional_2.13\2.8.1\play-functional_2.13-2.8.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.1.0\scalactic_2.13-3.1.0-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.1.0\scalactic_2.13-3.1.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.1.0\scalactic_2.13-3.1.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-json_2.13\2.8.1\play-json_2.13-2.8.1-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-json_2.13\2.8.1\play-json_2.13-2.8.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-json_2.13\2.8.1\play-json_2.13-2.8.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.13\3.1.0\scalatest_2.13-3.1.0-sources.jar" kind="lib" path="C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.13\3.1.0\scalatest_2.13-3.1.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\l_mar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.13\3.1.0\scalatest_2.13-3.1.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path=".target"/>
+</classpath>

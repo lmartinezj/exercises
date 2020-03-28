@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.13.1":{"hashes":[["C:\\projects\\lightbend\\exercises\\exercises\\src\\test\\scala\\Trivial.scala","f7c34642f51495460ffc0c5c83c79d69eeddef38"]],"lastModifiedTimes":[]}}]

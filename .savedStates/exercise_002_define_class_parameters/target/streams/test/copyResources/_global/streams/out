@@ -1,0 +1,3 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\projects\lightbend\exercises\exercises\src\test\resources\.gitignore,C:\projects\lightbend\exercises\exercises\target\scala-2.13\test-classes\.gitignore)
+[debug] 	(C:\projects\lightbend\exercises\exercises\src\test\resources\README.md,C:\projects\lightbend\exercises\exercises\target\scala-2.13\test-classes\README.md)
