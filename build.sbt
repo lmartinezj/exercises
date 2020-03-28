@@ -7,6 +7,7 @@ lazy val base = (project in file("."))
     exercises
   )
   .settings(CommonSettings.commonSettings: _*)
+  .dependsOn(exercises)
 
 lazy val common = project.settings(CommonSettings.commonSettings: _*)
 
