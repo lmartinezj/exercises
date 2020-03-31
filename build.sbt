@@ -7,7 +7,7 @@ lazy val base = (project in file("."))
     exercises
   )
   .settings(CommonSettings.commonSettings: _*)
-  .dependsOn(exercises)
+  /* .dependsOn(exercises) */
 
 lazy val common = project.settings(CommonSettings.commonSettings: _*)
 
@@ -16,3 +16,4 @@ lazy val exercises = project
   .dependsOn(common % "test->test;compile->compile")
 
 (Compile / runMain) := ((Compile / runMain) in exercises).evaluated
+onLoad in Global := (onLoad in Global).value andThen (Command.process("project exercises", _))
