@@ -1,6 +1,6 @@
 package com.lightbend.training.scalatrain
 
-class Time(val hours: Int = 0, val minutes: Int = 0) {
+case class Time(hours: Int = 0, minutes: Int = 0) {
   val asMinutes: Int = (hours * 60) + minutes
   require(hours>=0 && hours<=23, "hour value out of permitted range")
   require(minutes>=0 && minutes<=59, "minute value out of permitted range")
@@ -12,6 +12,6 @@ object Time {
   def fromMinutes(minutes: Int):Time = {
     val  myHours:Int = minutes / 60
     val myMinutes:Int = minutes % 60
-    new Time(myHours, myMinutes)
+    Time(myHours, myMinutes)
   }
 }
