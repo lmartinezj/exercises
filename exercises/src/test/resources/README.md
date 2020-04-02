@@ -1,6 +1,6 @@
-define-a-class
+tests
 
-# Exercise 1 > Define a class
+# Exercise 12 > Group Exercise: Tests
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
