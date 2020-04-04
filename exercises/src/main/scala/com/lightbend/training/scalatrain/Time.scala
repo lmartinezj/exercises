@@ -6,6 +6,8 @@ case class Time(hours: Int = 0, minutes: Int = 0) {
   require(minutes>=0 && minutes<=59, "minute value out of permitted range")
   def minus(that:Time):Int = asMinutes - that.asMinutes
   def -(that:Time):Int = minus(that)
+
+  override lazy val toString: String = f"${hours}%02d:${minutes}%02d"
 }
 
 object Time {
