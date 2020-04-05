@@ -1,6 +1,6 @@
 package com.lightbend.training.scalatrain
 
-case class Time(hours: Int = 0, minutes: Int = 0) {
+case class Time(hours: Int = 0, minutes: Int = 0) extends Ordered[Time] {
   val asMinutes: Int = (hours * 60) + minutes
   require(hours>=0 && hours<=23, "hour value out of permitted range")
   require(minutes>=0 && minutes<=59, "minute value out of permitted range")
@@ -8,6 +8,8 @@ case class Time(hours: Int = 0, minutes: Int = 0) {
   def -(that:Time):Int = minus(that)
 
   override lazy val toString: String = f"${hours}%02d:${minutes}%02d"
+
+  override def compare(that: Time): Int = this - that
 }
 
 object Time {
