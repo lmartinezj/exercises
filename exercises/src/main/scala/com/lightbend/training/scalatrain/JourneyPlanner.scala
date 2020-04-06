@@ -6,8 +6,9 @@ class JourneyPlanner(trains: Set[Train]) {
   def stopsAt(station: Station): Set[(Time, Train)] =
     for {
       train <- trains
-      stop <- train.schedule if stop._2 == station
-    } yield (stop._1 -> train)
+      //stop <- train.schedule if stop._2 == station
+      (myTime, myStation) <- train.schedule if myStation == station
+    } yield (myTime -> train)
 
   def isShortTrip(from: Station, to: Station): Boolean = {
     trains.exists(_.stations.dropWhile(_ != from) match {
