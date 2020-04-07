@@ -7,7 +7,8 @@ class JourneyPlanner(trains: Set[Train]) {
     for {
       train <- trains
       //stop <- train.schedule if stop._2 == station
-      (myTime, myStation) <- train.schedule if myStation == station
+      //(myTime, myStation) <- train.schedule if myStation == station
+      myTime <- train.timeAt(station)
     } yield (myTime -> train)
 
   def isShortTrip(from: Station, to: Station): Boolean = {
